@@ -1,0 +1,45 @@
+/* ----- Stylesheet ----- */
+
+/* Import 'Orbitro' Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+/* HTML CSS gives webpage a gradient background and changes the cursor */
+html
+{
+	background-image: linear-gradient(darkblue, navy);
+	cursor: url(..//images/move.png) 8 8,crosshair;
+}
+
+/* Body CSS Centers the game on the page, implements the new font, and gives another background gradient */
+body
+{
+	max-width: 600px;
+	padding: 10px 50px 10px 50px;
+	margin: auto;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 200%;;
+	background-image: linear-gradient(lightgray, darkgray);
+}
+
+/* Header CSS Centers the text, changes the font color, and adds a border */
+header
+{
+	text-align: center;
+	color: red;
+	background-color: darkgray;
+	padding: 1px;
+	margin-bottom: 1em;
+	border: 3px solid black;
+}
+
+/* Footer CSS Centers the text and adds a border */
+footer
+{
+	text-align: center;
+	background-color: lightgray;
+	padding: 10px;
+	margin-top: 1em;
+	margin-bottom: 1px;
+	border: 3px solid black;
+	font-size: 50%;
+}
